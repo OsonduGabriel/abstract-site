@@ -1,0 +1,122 @@
+body{
+    font-family: "Monserrat", sans-serif;
+    background: #ffffff;
+    color: black;
+    height: 100vh;
+    width: 100%;
+}
+
+h1, h3{
+    font-family: cursive;
+}
+
+a{
+    color: #267cec;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    color: white;
+    background: black;
+    padding: 40px 15px;
+}
+.icon{
+    display: flex;
+    padding-left: 80px;
+    font-size: 22px;
+}
+.icon-text{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.menu{
+    display: flex;
+}
+.menu-item{
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.search-btn{
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.request-btn{
+    background: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer; 
+}
+.sign-btn{
+    background: #4C5FD5;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Title section */
+.title{
+    padding:50px 30px;
+    background: #dadbf1;
+}
+#back{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+#back:hover{
+    text-decoration: none;
+    color: #3f3e3e;
+}
+
+/* Abstract item section */
+.item-box{
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    margin: 50px 30px;
+}
+/* Help container */
+.help-btn{
+    border-color: #4C5FD5;
+    border-radius: 30px;
+    color: white;
+    background: #4C5FD5;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+ul{
+    line-height: 35px;
+}
+
+
+
+
+/* footer */
+.footer{
+    color: white;
+    background: black;
+    margin-top: 10px;
+    padding: 30px 50px;
+    padding-left: 100px;
+    display: flex;
+    gap: 50px;
+}
+.footer div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 14px;
+}
+.footer-bottom{
+    margin-left: 130px;
+    margin-top: 130px;
+}
+

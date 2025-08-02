@@ -1,0 +1,147 @@
+body{
+    font-family: "Monserrat", sans-serif;
+    background: #ffffff;
+    color: black;
+    height: 100vh;
+    width: 100%;
+}
+
+h1, h3{
+    font-family: cursive;
+}
+
+a{
+    color: #267cec;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    color: white;
+    background: black;
+    padding: 40px 15px;
+}
+.icon{
+    display: flex;
+    padding-left: 80px;
+    font-size: 22px;
+}
+.icon-text{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.menu{
+    display: flex;
+}
+.menu-item{
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.search-btn{
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.request-btn{
+    background: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer; 
+}
+.sign-btn{
+    background: #4C5FD5;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Title section */
+.title{
+    justify-items: center;
+    padding:50px 0;
+    background: #dadbf1;
+}
+.search-input{
+    position: relative; /* Enables absolute positioning inside this container */
+    width: 500px;
+}
+.search-bar{
+    padding: 10px 40px 10px 12px;
+    font-size: 16px;
+    border-radius: 4px;
+    width: 100%;
+}
+.arrow-icon{
+    color: grey;
+    position: absolute; /*positions the icon relative to the search-input container */
+    right: 12px; /*pushes icon 12px from the right*/
+    top: 50%; /*vertically centers the icon*/
+    transform: translateY(-50%); /*corrects the icon to align vertically with input*/
+    pointer-events: none; /* makes pointer unclikable to not block typing*/
+}
+
+/* Help container */
+.help-container{
+    display: flex;
+    justify-content: end;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+.help-btn{
+    border-color: #4C5FD5;
+    border-radius: 30px;
+    color: white;
+    background: #4C5FD5;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Abstract item section */
+.item-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 300px;
+}
+.item-img{
+    width: 80px;
+}
+#item-text > div{
+    margin-bottom: 20px;
+}
+
+
+/* footer */
+.footer{
+    color: white;
+    background: black;
+    margin-top: 10px;
+    padding: 30px 50px;
+    padding-left: 100px;
+    display: flex;
+    gap: 50px;
+}
+.footer div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 14px;
+}
+.footer-bottom{
+    margin-left: 130px;
+    margin-top: 130px;
+}
+
